@@ -1,0 +1,87 @@
+==== AIME FUSE READ (READ-ONLY) ====
+id:
+uid=0(root) gid=0(root) groups=0(root) context=u:r:pservice:s0
+
+==== socinfo soc0 (present/absent feature bytes) ====
+nsp=0xff
+npu=0x0
+modem=0xff
+gpu=0x0
+video=0x0
+camera=0x0
+audio=0x0
+spss=0x0
+wlan=0x0
+chip_id=CQ8725S
+machine=CQ8725S
+soc_id=706
+revision=2.0
+sku=CQ8725S-3-AA
+raw_package_type=0x7
+num_subset_parts=0x14
+nsubset_parts=
+ncluster_array_offset=0xe4
+nsubset_parts_array_offset=0xec
+subset_parts=9040
+
+==== /proc/iomem qfprom rows ====
+221c8000-221c8fff : 221c8000.qfprom qfprom@221c8000
+221c8000-221c8fff : 221c8000.qfprom qfprom@221c8000
+
+==== nvmem qfprom12 (HLOS fuse window @0x221c8000) ====
+total 0
+drwxr-xr-x 3 root root    0 1970-01-03 11:56 .
+drwxr-xr-x 4 root root    0 1970-01-03 11:56 ..
+-r--r--r-- 1 root root 4096 2026-06-30 13:52 nvmem
+lrwxrwxrwx 1 root root    0 2026-06-30 13:52 of_node -> ../../../../../firmware/devicetree/base/soc/qfprom@221c8000
+drwxr-xr-x 2 root root    0 2026-06-30 13:52 power
+lrwxrwxrwx 1 root root    0 2026-06-30 13:52 subsystem -> ../../../../../bus/nvmem
+-r--r--r-- 1 root root 4096 2026-06-30 13:52 type
+-rw-r--r-- 1 root root 4096 2026-06-30 13:52 uevent
+qfprom12 size bytes:
+4096
+qfprom12 hexdump (first 256 bytes):
+000000 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+000010 57 bb 94 72 01 00 00 00 00 00 00 00 00 00 00 00
+000020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+*
+000040 00 a8 94 c0 01 00 00 00 00 00 00 00 00 00 00 00
+000050 00 00 70 32 00 00 00 00 00 00 00 00 00 00 00 00
+000060 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+000070 5f cd 83 0f 10 00 01 04 00 00 00 00 00 00 00 00
+000080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+*
+000100
+
+==== /dev/mem availability ====
+no /dev/mem
+# CONFIG_DEVMEM is not set
+# CONFIG_STRICT_DEVMEM is not set
+
+==== kallsyms qfprom/socinfo symbols (read-only) ====
+ffffffd22a7e2d8c t pld_socinfo_get_serial_number	[qca_cld3_peach_v2]
+ffffffd273875008 d qfprom_driver	[nvmem_qfprom]
+ffffffd273873bf8 t $d.3	[nvmem_qfprom]
+ffffffd273873bfc t $x.4	[nvmem_qfprom]
+ffffffd273873004 t qfprom_probe	[nvmem_qfprom]
+ffffffd273873000 t $d.5	[nvmem_qfprom]
+ffffffd273873004 t $x.6	[nvmem_qfprom]
+ffffffd2738733a4 t readl	[nvmem_qfprom]
+ffffffd273878e18 r qfprom_7_8_data	[nvmem_qfprom]
+ffffffd273878e28 r qfprom_7_15_data	[nvmem_qfprom]
+ffffffd273873448 t qfprom_reg_write	[nvmem_qfprom]
+ffffffd273873894 t qfprom_runtime_disable	[nvmem_qfprom]
+ffffffd27387326c t qfprom_reg_read	[nvmem_qfprom]
+ffffffd273873268 t $d.7	[nvmem_qfprom]
+ffffffd27387326c t $x.8	[nvmem_qfprom]
+ffffffd273875000 b read_raw_data	[nvmem_qfprom]
+ffffffd2738738b4 t readl_relaxed	[nvmem_qfprom]
+ffffffd2738733a4 t $x.9	[nvmem_qfprom]
+ffffffd27387b000 d $d.10	[nvmem_qfprom]
+ffffffd2738733c0 t $x.11	[nvmem_qfprom]
+
+==== DT qfprom reg (physical base/size HLOS sees) ====
+0000000 22 1c 80 00 00 00 10 00
+0000008
+
+==== END ====

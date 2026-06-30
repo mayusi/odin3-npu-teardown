@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "Odin 3 / CQ8725S NPU (NSP) Unlock Investigation"
+message: "If you reference this investigation, please cite it."
+type: dataset
+authors:
+  - alias: mayusi
+abstract: >-
+  An evidence-backed reverse-engineering investigation establishing that the
+  Hexagon NPU (NSP subsystem) on the AYN Odin 3 (Qualcomm CQ8725S / SM8750
+  "sun") is disabled by a permanent factory QFPROM fuse and cannot be enabled
+  by software, firmware, signing, or any on-device path. Includes on-device
+  read-only fuse/socinfo reads, FeatureEnabler trustlet analysis, kernel-source
+  attribution, AVB/dm-verity forensics from a documented bricking event, and
+  a triangulated three-method proof.
+keywords:
+  - Qualcomm
+  - QFPROM
+  - Hexagon NPU
+  - NSP
+  - CDSP
+  - FastRPC
+  - SM8750
+  - CQ8725S
+  - AYN Odin 3
+  - socinfo
+  - dm-verity
+  - AVB
+  - reverse-engineering
+license: CC-BY-4.0
+date-released: 2026-06-30

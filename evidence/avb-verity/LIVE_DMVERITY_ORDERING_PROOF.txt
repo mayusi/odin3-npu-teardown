@@ -1,0 +1,7 @@
+=== LIVE dm-verity proof: is vendor_dlkm enforced at BLOCK layer? (read-only) ===
+--- dm targets / verity devices ---
+--- device-mapper table for vendor_dlkm (target TYPE: 'verity' vs 'linear') ---
+--- how /vendor_dlkm is mounted (dm device + ro) ---
+/dev/block/dm-18 /vendor_dlkm ext4 ro,seclabel,relatime,discard 0 0
+--- verity mode / fstab flags for vendor_dlkm ---
+--- selinux enforcing? (relevant to the SECONDARY xattr defect) ---

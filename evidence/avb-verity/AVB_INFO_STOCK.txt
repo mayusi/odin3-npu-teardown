@@ -1,0 +1,33 @@
+Footer version:           1.0
+Image size:               149073920 bytes
+Original image size:      146636800 bytes
+VBMeta offset:            148971520
+VBMeta size:              768 bytes
+--
+Minimum libavb version:   1.0
+Header Block:             256 bytes
+Authentication Block:     0 bytes
+Auxiliary Block:          512 bytes
+Algorithm:                NONE
+Rollback Index:           0
+Flags:                    0
+Rollback Index Location:  0
+Release String:           'avbtool 1.3.0'
+Descriptors:
+    Hashtree descriptor:
+      Version of dm-verity:  1
+      Image Size:            146636800 bytes
+      Tree Offset:           146636800
+      Tree Size:             1163264 bytes
+      Data Block Size:       4096 bytes
+      Hash Block Size:       4096 bytes
+      FEC num roots:         2
+      FEC offset:            147800064
+      FEC size:              1171456 bytes
+      Hash Algorithm:        sha256
+      Partition Name:        vendor_dlkm
+      Salt:                  b43a0710416d68e58f79df0c2dfd40d12f6d3beed959f13d461c549e9ef83c8b
+      Root Digest:           d0f1abeb931505fb203c12059930e265c848b33fee174c6004276e1b32aa7791
+      Flags:                 0
+    Prop: com.android.build.vendor_dlkm.os_version -> '15'
+    Prop: com.android.build.vendor_dlkm.fingerprint -> 'qti/sun/sun:15/AQ3A.250728.001/eng.Odin3.20260616.202507:user/release-keys'

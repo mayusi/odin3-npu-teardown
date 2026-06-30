@@ -1,0 +1,176 @@
+==== AIME SMEM SOCINFO (READ-ONLY) ====
+uid=0(root) gid=0(root) groups=0(root) context=u:r:pservice:s0
+
+==== all soc0 attributes (full dump) ====
+audio = 0x0 
+camera = 0x0 
+chip_family = 0x96 
+chip_id = CQ8725S 
+comp = 0x0 
+comp1 = 0x0 
+display = 0x0 
+display1 = 0x0 
+eva = 0x0 
+family = Snapdragon 
+feature_code = AA 
+gpu = 0x0 
+hw_platform = HDK 
+image_crm_version = REL  
+image_variant = sun-user  
+image_version = 10:AQ3A.250728.001:eng.Odin3.20260616.191954  
+images = 0: 	CRM:		00:BOOT.MXF.2.5.1-00282-PAKALA-1 	Variant:	SocPakalaLAA 	Version:	:CQ8750-BOOT-R01-V1.1_20251112 1: 	CRM:		01:TZ.XF.5.29-00559-PAKALA-1 	Variant:	VPAKALAAA 	Version:	:ip-10-195-202-119 10: 	CRM:		10:AQ3A.250728.001:eng.Odin3.20260616.191954  	Variant:	sun-user  	Version:	REL  12: 	CRM:		12:LPAIDSP.HT.1.1-01147.1-PAKALA-1 	Variant:	pakala.adsp.prodQ 	Version:	:CQ8750-ADSP-R01-V1.6_20260616 27: 	CRM:		27:SOCCP.FW.1.0-00174-PAKALA_SOCCP_PACK-1 	Variant:	pakala.soccp.prod 	Version:	:SZ-D-000920B 28: 	CRM:		28:ssg.tmefw.3.1-00687-release 	Variant:	 	Version:	: 
+machine = CQ8725S 
+modem = 0xff 
+nav = 0x1 
+ncluster_array_offset = 0xe4 
+npu = 0x0 
+nsp = 0xff 
+nsubset_parts_array_offset = 0xec 
+num_clusters = 0x2 
+num_subset_parts = 0x14 
+pcode = 0x3 
+platform_subtype = charm 
+platform_subtype_id = 1 
+platform_version = 0 
+raw_package_type = 0x7 
+revision = 2.0 
+select_image = 10 
+sensors = 0x0 
+serial_number = <REDACTED> 
+sku = CQ8725S-3-AA 
+soc_id = 706 
+spss = 0x0 
+subset_cores = 0 
+subset_parts = 9040 
+uevent = 
+video = 0x0 
+wlan = 0x0 
+
+==== Look for raw SMEM access points ====
+total 0
+drwxr-xr-x  15 root root 0 1970-01-01 00:00 .
+drwxrwxrwx 111 root root 0 1970-01-03 11:56 ..
+-r--r--r--   1 root root 0 1970-01-01 00:00 accessory_chip
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 adsp
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 apps
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 boot
+-r--r--r--   1 root root 0 1970-01-01 00:00 boot_cluster
+-r--r--r--   1 root root 0 1970-01-01 00:00 boot_core
+-r--r--r--   1 root root 0 1970-01-01 00:00 build_id
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 cdsp
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 cdsp1
+-r--r--r--   1 root root 0 1970-01-01 00:00 chip_family
+-r--r--r--   1 root root 0 1970-01-01 00:00 chip_id
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 cnss
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 dsps
+-r--r--r--   1 root root 0 1970-01-01 00:00 feature_code
+-r--r--r--   1 root root 0 1970-01-01 00:00 foundry_id
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 gpdsp
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 gpdsp1
+-r--r--r--   1 root root 0 1970-01-01 00:00 hardware_platform
+-r--r--r--   1 root root 0 1970-01-01 00:00 hardware_platform_subtype
+-r--r--r--   1 root root 0 1970-01-01 00:00 info_fmt
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 mpss
+-r--r--r--   1 root root 0 1970-01-01 00:00 ncluster_array_offset
+-r--r--r--   1 root root 0 1970-01-01 00:00 nmodem_supported
+-r--r--r--   1 root root 0 1970-01-01 00:00 nproduct_id
+-r--r--r--   1 root root 0 1970-01-01 00:00 nsubset_parts_array_offset
+-r--r--r--   1 root root 0 1970-01-01 00:00 num_clusters
+-r--r--r--   1 root root 0 1970-01-01 00:00 num_func_clusters
+-r--r--r--   1 root root 0 1970-01-01 00:00 num_subset_parts
+-r--r--r--   1 root root 0 1970-01-01 00:00 oem_variant
+-r--r--r--   1 root root 0 1970-01-01 00:00 pcode
+-r--r--r--   1 root root 0 1970-01-01 00:00 platform_version
+-r--r--r--   1 root root 0 1970-01-01 00:00 pmic_die_rev
+-r--r--r--   1 root root 0 1970-01-01 00:00 pmic_model
+-r--r--r--   1 root root 0 1970-01-01 00:00 pmic_model_array
+-r--r--r--   1 root root 0 1970-01-01 00:00 raw_device_family
+-r--r--r--   1 root root 0 1970-01-01 00:00 raw_device_number
+-r--r--r--   1 root root 0 1970-01-01 00:00 raw_package_type
+-r--r--r--   1 root root 0 1970-01-01 00:00 raw_version
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 rpm
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 tz
+drwxr-xr-x   2 root root 0 1970-01-01 00:00 video
+/sys/kernel/debug/qcom_socinfo
+/sys/kernel/debug/ipc_logging/glink_smem
+
+==== qcom socinfo debugfs tree (if present) ====
+/sys/kernel/debug/qcom_socinfo/gpdsp1/oem = 
+/sys/kernel/debug/qcom_socinfo/gpdsp1/variant = 
+/sys/kernel/debug/qcom_socinfo/gpdsp1/name = 
+/sys/kernel/debug/qcom_socinfo/gpdsp/oem = 
+/sys/kernel/debug/qcom_socinfo/gpdsp/variant = 
+/sys/kernel/debug/qcom_socinfo/gpdsp/name = 
+/sys/kernel/debug/qcom_socinfo/cdsp1/oem = 
+/sys/kernel/debug/qcom_socinfo/cdsp1/variant = 
+/sys/kernel/debug/qcom_socinfo/cdsp1/name = 
+/sys/kernel/debug/qcom_socinfo/cdsp/oem = 
+/sys/kernel/debug/qcom_socinfo/cdsp/variant = 
+/sys/kernel/debug/qcom_socinfo/cdsp/name = 
+/sys/kernel/debug/qcom_socinfo/dsps/oem = 
+/sys/kernel/debug/qcom_socinfo/dsps/variant = 
+/sys/kernel/debug/qcom_socinfo/dsps/name = 
+/sys/kernel/debug/qcom_socinfo/video/oem = 
+/sys/kernel/debug/qcom_socinfo/video/variant = 
+/sys/kernel/debug/qcom_socinfo/video/name = 
+/sys/kernel/debug/qcom_socinfo/cnss/oem = 
+/sys/kernel/debug/qcom_socinfo/cnss/variant = 
+/sys/kernel/debug/qcom_socinfo/cnss/name = 
+/sys/kernel/debug/qcom_socinfo/adsp/oem = CQ8750-ADSP-R01-V1.6_20260616 
+/sys/kernel/debug/qcom_socinfo/adsp/variant = pakala.adsp.prodQ 
+/sys/kernel/debug/qcom_socinfo/adsp/name = 12:LPAIDSP.HT.1.1-01147.1-PAKALA-1 
+/sys/kernel/debug/qcom_socinfo/mpss/oem = 
+/sys/kernel/debug/qcom_socinfo/mpss/variant = 
+/sys/kernel/debug/qcom_socinfo/mpss/name = 
+/sys/kernel/debug/qcom_socinfo/apps/oem = EL  
+/sys/kernel/debug/qcom_socinfo/apps/variant = sun-user  
+/sys/kernel/debug/qcom_socinfo/apps/name = 10:AQ3A.250728.001:eng.Odin3.20260616.191954  
+/sys/kernel/debug/qcom_socinfo/rpm/oem = 
+/sys/kernel/debug/qcom_socinfo/rpm/variant = 
+/sys/kernel/debug/qcom_socinfo/rpm/name = 
+/sys/kernel/debug/qcom_socinfo/tz/oem = ip-10-195-202-119 
+/sys/kernel/debug/qcom_socinfo/tz/variant = VPAKALAAA 
+/sys/kernel/debug/qcom_socinfo/tz/name = 01:TZ.XF.5.29-00559-PAKALA-1 
+/sys/kernel/debug/qcom_socinfo/boot/oem = CQ8750-BOOT-R01-V1.1_20251112 
+/sys/kernel/debug/qcom_socinfo/boot/variant = SocPakalaLAA 
+/sys/kernel/debug/qcom_socinfo/boot/name = 00:BOOT.MXF.2.5.1-00282-PAKALA-1 
+/sys/kernel/debug/qcom_socinfo/build_id =  
+/sys/kernel/debug/qcom_socinfo/raw_version = 0 
+/sys/kernel/debug/qcom_socinfo/hardware_platform = 31 
+/sys/kernel/debug/qcom_socinfo/platform_version = 0 
+/sys/kernel/debug/qcom_socinfo/accessory_chip = 0 
+/sys/kernel/debug/qcom_socinfo/hardware_platform_subtype = 1 
+/sys/kernel/debug/qcom_socinfo/pmic_die_rev = 2.1 
+/sys/kernel/debug/qcom_socinfo/pmic_model = unknown (74) 
+/sys/kernel/debug/qcom_socinfo/foundry_id = 1 
+/sys/kernel/debug/qcom_socinfo/pmic_model_array = unknown (74) unknown (73) unknown (70) unknown (70) unknown (70) unknown (86) unknown (70) unknown (69) 
+/sys/kernel/debug/qcom_socinfo/raw_device_number = 0x00000012 
+/sys/kernel/debug/qcom_socinfo/raw_device_family = 0x0000000a 
+/sys/kernel/debug/qcom_socinfo/chip_family = 0x00000096 
+/sys/kernel/debug/qcom_socinfo/chip_id = CQ8725S 
+/sys/kernel/debug/qcom_socinfo/nproduct_id = 1114 
+/sys/kernel/debug/qcom_socinfo/nsubset_parts_array_offset = 236 
+/sys/kernel/debug/qcom_socinfo/num_subset_parts = 20 
+/sys/kernel/debug/qcom_socinfo/ncluster_array_offset = 228 
+/sys/kernel/debug/qcom_socinfo/num_clusters = 2 
+/sys/kernel/debug/qcom_socinfo/nmodem_supported = 0 
+/sys/kernel/debug/qcom_socinfo/pcode = 3 
+/sys/kernel/debug/qcom_socinfo/feature_code = 1 
+/sys/kernel/debug/qcom_socinfo/oem_variant = 0 
+/sys/kernel/debug/qcom_socinfo/boot_core = 0 
+/sys/kernel/debug/qcom_socinfo/boot_cluster = 0 
+/sys/kernel/debug/qcom_socinfo/num_func_clusters = 2 
+/sys/kernel/debug/qcom_socinfo/raw_package_type = 7 
+/sys/kernel/debug/qcom_socinfo/info_fmt = 0x00000016 
+
+==== subset/defective parts specifically ====
+subset_parts(dec)=9040
+num_subset_parts=0x14
+nsubset_parts_array_offset=0xec
+nsubset_parts raw:
+000000
+
+==== feature_code / pcode (SKU + bin identity) ====
+feature_code=AA
+pcode=0x3
+==== END ====

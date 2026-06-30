@@ -1,0 +1,29 @@
+==== AIME RAW SMEM SOCINFO (READ-ONLY) ====
+uid=0(root) gid=0(root) groups=0(root) context=u:r:pservice:s0
+
+==== candidate raw SMEM nodes ====
+
+==== try /dev/mem-free SMEM via /sys/kernel/debug/qcom_socinfo image_version raw + look for socinfo proc ====
+
+==== SMEM partition in /proc/iomem (physical base of SMEM) ====
+
+==== Is there an msm_smem / smem char dev or sysfs raw? ====
+/sys/kernel/debug/qcom_socinfo/nsubset_parts_array_offset
+/sys/devices/soc0/nsubset_parts_array_offset
+/sys/devices/soc0/subset_cores
+/sys/devices/soc0/subset_parts
+subset_parts raw bytes:
+9040
+
+==== decode: 9040 dec = hex, and bit view ====
+subset_parts dec=9040
+subset_parts hex=0x2350
+
+==== per-image socinfo cdsp vs adsp (presence of build string = provisioned) ====
+[cdsp] name='' variant=''
+[cdsp1] name='' variant=''
+[gpdsp] name='' variant=''
+[gpdsp1] name='' variant=''
+[adsp] name='12:LPAIDSP.HT.1.1-01147.1-PAKALA-1' variant='pakala.adsp.prodQ'
+[mpss] name='' variant=''
+==== END ====

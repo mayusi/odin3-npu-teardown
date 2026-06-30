@@ -1,0 +1,79 @@
+# MkDocs Material config — turns docs/ into a tabbed documentation site.
+# Build locally:  pip install mkdocs-material && mkdocs serve
+# (The Markdown also renders natively on GitHub without this — the site is optional.)
+
+site_name: "Odin 3 / CQ8725S — NPU (NSP) Unlock Investigation"
+site_description: "Evidence-backed teardown of why the Hexagon NPU on the AYN Odin 3 is fused off, and everything tried to enable it."
+site_author: "mayusi"
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - footnotes
+  - attr_list
+  - toc:
+      permalink: true
+
+nav:
+  - Overview:
+      - 00-overview/index.md
+      - The hardware: 00-overview/hardware.md
+      - The NPU/NSP/CDSP stack: 00-overview/npu-stack.md
+      - How to read this repo: 00-overview/how-to-read.md
+  - The Verdict:
+      - 01-the-verdict/index.md
+  - How We Proved It:
+      - 02-how-we-proved-it/index.md
+      - 1. Live socinfo read: 02-how-we-proved-it/proof-1-socinfo.md
+      - 2. FeatureEnabler trustlet: 02-how-we-proved-it/proof-2-featenabler.md
+      - 3. Kernel source + patent: 02-how-we-proved-it/proof-3-kernel-patent.md
+  - Methods (everything we tried):
+      - 03-methods/index.md
+      - Full Test Inventory (all 47 phases): 03-methods/00-full-test-inventory.md
+      - No-root QNN / NPUBench: 03-methods/01-no-root-qnn.md
+      - Firmware surface inventory: 03-methods/02-firmware-inventory.md
+      - XBL / boot policy: 03-methods/03-xbl-boot-policy.md
+      - EDL / Firehose forensics: 03-methods/04-edl-firehose.md
+      - Donor firmware comparison: 03-methods/05-donor-firmware.md
+      - Kernel source / build: 03-methods/06-kernel-build.md
+      - vendor_boot / vendor_dlkm probes: 03-methods/07-vendor-dlkm-probes.md
+      - The brick & recovery: 03-methods/08-brick-and-recovery.md
+      - FeatureEnabler decode: 03-methods/09-featenabler-decode.md
+  - Evidence:
+      - 04-evidence/index.md
+  - Timeline:
+      - 05-timeline/index.md
+  - FAQ:
+      - 06-faq/index.md
+  - Reproduce:
+      - 07-reproduce/index.md

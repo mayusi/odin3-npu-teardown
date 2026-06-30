@@ -1,0 +1,95 @@
+# ============================================================================
+#  SAFETY GITIGNORE — blocks proprietary firmware, binaries, secrets, and
+#  large files from EVER being committed to this public repo.
+#  Docs + curated TEXT evidence only. If you must add a binary, force it
+#  explicitly with `git add -f` after you are sure it is safe to publish.
+# ============================================================================
+
+# --- Proprietary / signed firmware (NEVER publish — copyright + legal) ---
+*.img
+*.bin
+*.elf
+*.melf
+*.mbn
+*.fv
+*.pack
+*.7z
+*.zip
+*.tar
+*.tar.*
+*.gz
+*.xz
+*.lz4
+*.apk
+*.dex
+*.so
+*.ko
+*.dtb
+*.dtbo
+NON-HLOS*
+BTFM*
+dspso*
+ODIN3_FOLDERS/
+**/donor_downloads/
+**/donor_extract*/
+**/*firehose*
+**/*prog_firehose*
+**/xbl*
+**/abl*
+**/tz.*
+**/keymint*
+**/featenabler.mbn
+
+# --- Raw disk / partition dumps ---
+*.raw
+*.sparse
+*.roundtrip*
+super_*.img
+vendor_dlkm*.img
+vbmeta*.img
+boot*.img
+metadata_*.img
+userdata_*.img
+persist.img
+
+# --- Secrets / keys / credentials ---
+*.pem
+*.key
+*.pk8
+*.p12
+*.keystore
+*.jks
+*.crt
+*.cer
+*.der
+id_rsa*
+*secret*
+*token*
+*.env
+.env*
+
+# --- Large files guard (manual review required to add anything big) ---
+# (CI / pre-commit can enforce a hard size cap; see CONTRIBUTING.)
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+node_modules/
+site/            # mkdocs build output
+.cache/
+
+# --- Allow: documentation + curated text evidence ---
+!**/*.md
+!**/*.txt
+!**/*.json
+!**/*.log
+!**/*.csv
+!**/*.yml
+!**/*.yaml
+!docs/assets/*.svg
+!docs/assets/*.png
