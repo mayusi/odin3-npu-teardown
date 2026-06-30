@@ -1,5 +1,19 @@
 <div align="center">
 
+## 📖 **[→ READ THE FULL DOCUMENTATION SITE ←](https://mayusi.github.io/odin3-npu-teardown/)**
+
+### **[mayusi.github.io/odin3-npu-teardown](https://mayusi.github.io/odin3-npu-teardown/)** — tabbed, searchable, dark-mode docs
+
+[![docs site](https://img.shields.io/badge/docs-live%20site-7e57c2?style=for-the-badge&logo=readthedocs&logoColor=white)](https://mayusi.github.io/odin3-npu-teardown/)
+&nbsp;
+[![verdict](https://img.shields.io/badge/verdict-NSP%20FUSED%20OFF-c62828?style=for-the-badge)](https://mayusi.github.io/odin3-npu-teardown/01-the-verdict/)
+
+</div>
+
+---
+
+<div align="center">
+
 # Odin 3 / Snapdragon CQ8725S — NPU (NSP) Unlock Investigation
 
 ### A complete, evidence-backed teardown of *why* the Hexagon NPU on the AYN Odin 3 cannot be enabled — and everything that was tried to enable it.
