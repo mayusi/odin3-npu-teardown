@@ -46,8 +46,8 @@ If you want to understand **how to read this repo**:
 
 If you want the **proof**:
 
-- [`02-how-we-proved-it/`](../02-how-we-proved-it/) — step-by-step methodology
-- [`04-evidence/`](../04-evidence/) — raw artifacts, dumps, and annotated output
+- [`02-how-we-proved-it/`](../02-how-we-proved-it/index.md) — step-by-step methodology
+- [`04-evidence/`](../04-evidence/index.md) — raw artifacts, dumps, and annotated output
 
 ---
 

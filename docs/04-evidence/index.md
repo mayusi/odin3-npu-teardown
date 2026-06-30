@@ -2,7 +2,7 @@
 
 The `evidence/` folder contains the raw artifacts — on-device reads, decode reports, postmortem analyses, build logs, and SHA-256 hashes — that back every factual claim in this repository. This page explains the folder structure, what is included and excluded, and maps each evidence subfolder to the documentation that cites it.
 
-For the full scrubbing and exclusion policy, see [SENSITIVE.md](../../SENSITIVE.md).
+For the full scrubbing and exclusion policy, see [SENSITIVE.md](https://github.com/mayusi/odin3-npu-teardown/blob/main/SENSITIVE.md).
 
 ---
 
@@ -52,7 +52,7 @@ The following categories are **never committed** to this repository. They are do
 | Compiled kernel modules, shared libraries, DTBs, APKs | Build outputs / proprietary blobs. |
 | Device serial, IMEI, MEID, SIM identifiers | Privacy. Replaced with `<SERIAL>` / `<REDACTED>` in all published evidence. |
 
-These exclusions are enforced by [`.gitignore`](../../.gitignore).
+These exclusions are enforced by [`.gitignore`](https://github.com/mayusi/odin3-npu-teardown/blob/main/.gitignore).
 
 ---
 
@@ -78,4 +78,4 @@ This evidence set is **curated, not exhaustive**. Raw investigation sessions pro
 
 The evidence is sufficient to independently verify every factual claim in the documentation without running any of the investigation steps yourself. For those who want to verify on their own Odin 3, the read-only reproduction guide at [`07-reproduce/index.md`](../07-reproduce/index.md) covers all checks that do not require specific firmware files.
 
-For questions about what was excluded and why, see [SENSITIVE.md](../../SENSITIVE.md).
+For questions about what was excluded and why, see [SENSITIVE.md](https://github.com/mayusi/odin3-npu-teardown/blob/main/SENSITIVE.md).

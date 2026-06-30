@@ -5,6 +5,10 @@
 site_name: "Odin 3 / CQ8725S — NPU (NSP) Unlock Investigation"
 site_description: "Evidence-backed teardown of why the Hexagon NPU on the AYN Odin 3 is fused off, and everything tried to enable it."
 site_author: "mayusi"
+site_url: "https://mayusi.github.io/odin3-npu-teardown/"
+repo_url: "https://github.com/mayusi/odin3-npu-teardown"
+repo_name: "mayusi/odin3-npu-teardown"
+edit_uri: "edit/main/docs/"
 theme:
   name: material
   palette:
@@ -45,6 +49,7 @@ markdown_extensions:
       permalink: true
 
 nav:
+  - Home: index.md
   - Overview:
       - 00-overview/index.md
       - The hardware: 00-overview/hardware.md

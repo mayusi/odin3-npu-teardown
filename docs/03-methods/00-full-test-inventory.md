@@ -14,9 +14,9 @@
 | Kernel/module patches written | **7+** |
 | Independent kernel build / source efforts | **5** |
 | Firmware images analyzed (factory + donor) | dozens (hashed, never redistributed) |
-| Independent confirmations of the final verdict | **3** (see [How We Proved It](../02-how-we-proved-it/)) |
+| Independent confirmations of the final verdict | **3** (see [How We Proved It](../02-how-we-proved-it/index.md)) |
 
-> **The "three proofs" are only the closing argument.** The [How We Proved It](../02-how-we-proved-it/) tab presents the three *independent* methods that nail the final verdict. Everything below is the campaign that led there — the dozens of avenues opened, tested, and closed before the fuse read settled it.
+> **The "three proofs" are only the closing argument.** The [How We Proved It](../02-how-we-proved-it/index.md) tab presents the three *independent* methods that nail the final verdict. Everything below is the campaign that led there — the dozens of avenues opened, tested, and closed before the fuse read settled it.
 
 ## Every phase
 
@@ -97,4 +97,4 @@ The investigation is organized into discrete phases, each with its own captured 
 
 ## What this inventory proves
 
-Every credible avenue to enable CDSP — app, firmware, bootloader, kernel, EDL, donor transplant, live patching — was opened and closed with evidence. The verdict isn't an assumption that survived because nothing disproved it; it's the **last hypothesis standing after dozens were actively eliminated**, and then independently confirmed three ways. The full evidence trail lives in [`evidence/`](../04-evidence/) and the source artifacts behind every row above.
+Every credible avenue to enable CDSP — app, firmware, bootloader, kernel, EDL, donor transplant, live patching — was opened and closed with evidence. The verdict isn't an assumption that survived because nothing disproved it; it's the **last hypothesis standing after dozens were actively eliminated**, and then independently confirmed three ways. The full evidence trail lives in [`evidence/`](../04-evidence/index.md) and the source artifacts behind every row above.

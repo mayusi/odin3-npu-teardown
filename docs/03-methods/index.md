@@ -61,4 +61,4 @@ A result at any single layer could have a layer-local explanation (misconfigurat
 
 Method 07 (vendor_dlkm probe) was the only write operation attempted. It ended in a brick and a full EDL recovery. The lesson it provided was unambiguous: the signed `vbmeta` AVB chain is enforced unconditionally on this device, and there is no safe path for unsigned partition modifications. This closes the last plausible "software path" — not because the software path was impossible to attempt, but because attempting it confirms there is no exit that doesn't require Qualcomm's signing keys.
 
-See [`evidence/vendor-dlkm-postmortem/`](../../evidence/vendor-dlkm-postmortem/) for the full postmortem report.
+See [`evidence/vendor-dlkm-postmortem/`](https://github.com/mayusi/odin3-npu-teardown/tree/main/evidence/vendor-dlkm-postmortem) for the full postmortem report.

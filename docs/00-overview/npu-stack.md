@@ -118,4 +118,4 @@ A common theory is that Qualcomm's **FeatureEnabler** trustlet — which is know
 
 2. **FeatureEnabler itself reads the hardware fuse.** Before licensing any feature, FeatureEnabler calls `qsee_is_sw_fuse_blown(fuse_id=22)` — a TrustZone API that directly checks the `NSP_DISABLE` OTP fuse in QFPROM. If the fuse is blown, FeatureEnabler cannot proceed for NSP regardless of what license key is presented. The hardware check is upstream of the software license.
 
-See [`04-evidence/`](../04-evidence/) for the FeatureEnabler trustlet analysis artifacts.
+See [`04-evidence/`](../04-evidence/index.md) for the FeatureEnabler trustlet analysis artifacts.

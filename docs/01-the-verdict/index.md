@@ -56,7 +56,7 @@ QNN HTP backend: fails at open()
 NPU inference: impossible
 ```
 
-Every link in this chain has been verified. See [`02-how-we-proved-it/`](../02-how-we-proved-it/) for the methodology behind each step, and [`04-evidence/`](../04-evidence/) for raw artifacts.
+Every link in this chain has been verified. See [`02-how-we-proved-it/`](../02-how-we-proved-it/index.md) for the methodology behind each step, and [`04-evidence/`](../04-evidence/index.md) for raw artifacts.
 
 ---
 

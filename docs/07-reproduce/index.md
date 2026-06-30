@@ -12,7 +12,7 @@ These are read-only verification steps that any Odin 3 owner with `adb` can run 
 >
 > If you are following this guide to reproduce findings, you should never need to write to the device. If any guide, forum post, or script tells you to flash anything in pursuit of NPU access, stop — the analysis on this page proves there is nothing to unlock.
 >
-> See [`evidence/avb-verity/`](../../evidence/avb-verity/) and [`evidence/vendor-dlkm-postmortem/`](../../evidence/vendor-dlkm-postmortem/) for the brick postmortem.
+> See [`evidence/avb-verity/`](https://github.com/mayusi/odin3-npu-teardown/tree/main/evidence/avb-verity) and [`evidence/vendor-dlkm-postmortem/`](https://github.com/mayusi/odin3-npu-teardown/tree/main/evidence/vendor-dlkm-postmortem) for the brick postmortem.
 
 ---
 
