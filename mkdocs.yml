@@ -3,7 +3,7 @@
 # (The Markdown also renders natively on GitHub without this — the site is optional.)
 
 site_name: "Odin 3 / CQ8725S — NPU (NSP) Unlock Investigation"
-site_description: "Evidence-backed teardown of why the Hexagon NPU on the AYN Odin 3 is fused off, and everything tried to enable it."
+site_description: "Teardown of how stock Android keeps the AYN Odin 3 Hexagon NPU disabled — and the community finding that it runs under Linux."
 site_author: "mayusi"
 site_url: "https://mayusi.github.io/odin3-npu-teardown/"
 repo_url: "https://github.com/mayusi/odin3-npu-teardown"
@@ -82,3 +82,6 @@ nav:
       - 06-faq/index.md
   - Reproduce:
       - 07-reproduce/index.md
+  - Community Findings:
+      - 08-community-findings/index.md
+      - "🏆 The HTP runs under Linux (@WhiteEagle-12)": 08-community-findings/htp-runs-under-linux.md

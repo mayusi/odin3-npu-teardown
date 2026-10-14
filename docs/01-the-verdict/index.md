@@ -1,5 +1,10 @@
 # The Verdict: The Hexagon NPU Is Permanently Disabled
 
+!!! warning "Superseded — this verdict was overturned"
+    [@WhiteEagle-12](https://github.com/WhiteEagle-12) showed in [issue #1](https://github.com/mayusi/odin3-npu-teardown/issues/1) that the CDSP boots and the QNN HTP backend runs real graphs correctly on this exact SoC under Linux. **The NPU is not fused off in silicon.**
+
+    This page is kept unchanged below as the record of the original Android-side reasoning. The causal chain is still an accurate description of what *stock Android* does; its first link — that a blown hardware fuse drives it — is what turned out to be wrong. See **[The HTP Runs Under Linux](../08-community-findings/htp-runs-under-linux.md)**.
+
 > **The answer is no. The NSP (Neural Signal Processor / Hexagon NPU) on the AYN Odin 3 cannot be enabled — by you, by AYN, by anyone, by any software — because a one-time-programmable hardware fuse on the CQ8725S silicon was blown at Qualcomm's factory before this chip ever left the building. That fuse cannot be unblown.**
 
 ---
